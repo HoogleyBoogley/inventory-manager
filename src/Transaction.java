@@ -9,6 +9,7 @@ public class Transaction {
     private int id;
     private String time;
     private String item;
+    private String status;
 
     Transaction(String item) {
         count++;
